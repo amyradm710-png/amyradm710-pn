@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الدفع</title>
+     <link rel="stylesheet" href="amer.css">
+</head>
+<body>
+     <nav>
+        <div class="logo">فندق الفخامة</div>
+      <ul>
+           <li><a href="#x">الغـــاء الحجز</a></li>
+           <li><a href="#r">تعديل الحجز</a></li>
+            <li><a href="#o">اكمال الحجز</a></li>
+            <li><a href="inde.html">الرئيسية</a></li>
+             
+      </ul>
+     </nav>
+  
+
+     <section id="o" class="rooms-container">
+    <div class ="box">
+      <main>
+        <h1>اكمال الحجز</h1>
+        <form id="booking-form">
+            <label for="name">:الاسم</label>
+            <input type="text" id="name" name="name" required>
+
+             <label for="phone">:رقم الهاتف</label>
+            <input type="tel" id="phone" name="phone"placeholder="000000000000" required>
+
+             <label for="id-proof">:مستند اثبات الهوية (صورة)</label>
+            <input type="file" id="id-proof" name="id-proof" required>
+
+
+            <label for="email">:البريد الإلكتروني</label>
+            <input type="email" id="email" name="email"placeholder="alfakhamahotel@gmail.com" required>
+
+            <label for="room-type">:نوع الغرفة</label>
+            <select id="room-type" name="room-type" required>
+                <option value="جناح ملكي">جناح ملكي</option>
+                <option value="غرفة عائلية">غرفة عائلية</option>
+                <option value="فيلا">فيلا</option>
+                <option value="كابانا">كابانا</option>
+                <option value="جناح رئاسي">جناح رئاسي</option>
+                <option value="غرفة مزدوجة">غرفة مزدوجة</option>
+                <option value="غرفة منفردة">غرفة منفردة</option>
+                  <option value="غرفة عازلة للصوت">غرفة عازلة للصوت</option>
+                <option value="غرفة مع ساونا">غرفة مع ساونا</option>
+                <option value="غرفة مطلة على المدينة">غرفة مطلة على المدينة</option>
+                <option value="غرفة مطلة على الحديقة">غرفة مطلة على الحديقة</option>
+                <option value="غرفة لذوى الإحتياجات الخاصة">غرفة لذوى الإحتياجات الخاصة</option>
+                
+            </select>
+
+            <label for="start-date">:تاريخ بداية الحجز</label>
+            <input type="date" id="start-date" name="start-date" required>
+
+            <label for="end-date">:تاريخ نهاية الحجز</label>
+            <input type="date" id="end-date" name="end-date" required>
+
+            <label>:رقم الحساب</label>
+            <input type="text" value="12345678" readonly>
+            
+
+            <label for="payment-proof">:اشعار الدفع (صورة)</label>
+            <input type="file" id="payment-proof" name="payment-proof" required>
+
+            <button type="submit">إرسال</button>
+        </form>
+    </main>
+    
+
+    </div>
+     </section>
+      
+
+
+ 
+<section id="r" class="rooms-container">
+
+ <div class="box">
+   
+     <main>
+      
+        <h1>تعديل الحجز</h1>
+        <form id="booking-form">
+          
+            <label for="name">:الاسم</label>
+            <input type="text" id="name" name="name" required>
+
+             <label for="phone">:رقم الهاتف</label>
+            <input type="tel" id="phone" name="phone"placeholder="000000000000" required>
+
+             <label for="id-proof">:مستند اثبات الهوية (صورة)</label>
+            <input type="file" id="id-proof" name="id-proof" required>
+
+
+            <label for="email">:البريد الإلكتروني</label>
+            <input type="email" id="email" name="email"placeholder="alfakhamahotel@gmail.com" required>
+
+            <label for="room-type">:الغرفة التي تم اختيارها سابقا</label>
+            <select id="room-type" name="room-type" required>
+                <option value="جناح ملكي">جناح ملكي</option>
+                <option value="غرفة عائلية">غرفة عائلية</option>
+                <option value="فيلا">فيلا</option>
+                <option value="كابانا">كابانا</option>
+                <option value="جناح رئاسي">جناح رئاسي</option>
+                <option value="غرفة مزدوجة">غرفة مزدوجة</option>
+                <option value="غرفة منفردة">غرفة منفردة</option>
+                  <option value="غرفة عازلة للصوت">غرفة عازلة للصوت</option>
+                <option value="غرفة مع ساونا">غرفة مع ساونا</option>
+                <option value="غرفة مطلة على المدينة">غرفة مطلة على المدينة</option>
+                <option value="غرفة مطلة على الحديقة">غرفة مطلة على الحديقة</option>
+                <option value="غرفة لذوى الإحتياجات الخاصة">غرفة لذوى الإحتياجات الخاصة</option>
+                
+            </select><br>
+
+             <label for="room-type">:الغرفة التي تم اختيارها حاليا</label>
+            <select id="room-type" name="room-type" required>
+                <option value="جناح ملكي">جناح ملكي</option>
+                <option value="غرفة عائلية">غرفة عائلية</option>
+                <option value="فيلا">فيلا</option>
+                <option value="كابانا">كابانا</option>
+                <option value="جناح رئاسي">جناح رئاسي</option>
+                <option value="غرفة مزدوجة">غرفة مزدوجة</option>
+                <option value="غرفة منفردة">غرفة منفردة</option>
+                  <option value="غرفة عازلة للصوت">غرفة عازلة للصوت</option>
+                <option value="غرفة مع ساونا">غرفة مع ساونا</option>
+                <option value="غرفة مطلة على المدينة">غرفة مطلة على المدينة</option>
+                <option value="غرفة مطلة على الحديقة">غرفة مطلة على الحديقة</option>
+                <option value="غرفة لذوى الإحتياجات الخاصة">غرفة لذوى الإحتياجات الخاصة</option>
+                
+            </select>
+
+            <h3>التاريخ القديم</h3>
+            <label for="start-date">:تاريخ بداية الحجز</label>
+            <input type="date" id="start-date" name="start-date" required>
+
+            <label for="end-date">:تاريخ نهاية الحجز</label>
+            <input type="date" id="end-date" name="end-date" required>
+
+            <h3>التاريخ الجديد</h3>
+            <label for="start-date">:تاريخ بداية الحجز</label>
+            <input type="date" id="start-date" name="start-date" required>
+
+            <label for="end-date">:تاريخ نهاية الحجز</label>
+            <input type="date" id="end-date" name="end-date" required>
+
+             <label>:رقم الحساب</label>
+            <input type="text" value="12345678" readonly>
+
+            <label for="payment-proof">:اشعار الدفع (صورة)</label>
+            <input type="file" id="payment-proof" name="payment-proof" required>
+
+            <button type="submit">إرسال</button>
+            
+        </form>
+       
+    </main>
+
+ </div>
+</section>
+
+
+
+<section id="x" class="rooms-container">
+<div class ="box">
+
+     <main>
+        <h1>الغـــاءالحجز</h1>
+        <form id="booking-form">
+            <label for="name">:الاسم</label>
+            <input type="text" id="name" name="name" required>
+
+             <label for="phone">:رقم الهاتف</label>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]*" placeholder="000000000000" required>
+
+             <label for="id-proof">:مستند اثبات الهوية (صورة)</label>
+            <input type="file" id="id-proof" name="id-proof" required>
+
+
+            <label for="email">:البريد الإلكتروني</label>
+            <input type="email" id="email" name="email"placeholder="alfakhamahotel@gmail.com" required>
+
+            <label for="room-type">:نوع الغرفة</label>
+            <select id="room-type" name="room-type" required>
+                <option value="جناح ملكي">جناح ملكي</option>
+                <option value="غرفة عائلية">غرفة عائلية</option>
+                <option value="فيلا">فيلا</option>
+                <option value="كابانا">كابانا</option>
+                <option value="جناح رئاسي">جناح رئاسي</option>
+                <option value="غرفة مزدوجة">غرفة مزدوجة</option>
+                <option value="غرفة منفردة">غرفة منفردة</option>
+                <option value="غرفة عازلة للصوت">غرفة عازلة للصوت</option>
+                <option value="غرفة مع ساونا">غرفة مع ساونا</option>
+                <option value="غرفة مطلة على المدينة">غرفة مطلة على المدينة</option>
+                <option value="غرفة مطلة على الحديقة">غرفة مطلة على الحديقة</option>
+                <option value="غرفة لذوى الإحتياجات الخاصة">غرفة لذوى الإحتياجات الخاصة</option>
+                
+            </select>
+
+            <label for="start-date">:تاريخ بداية الحجز</label>
+            <input type="date" id="start-date" name="start-date" required>
+
+            <label for="end-date">:تاريخ نهاية الحجز</label>
+            <input type="date" id="end-date" name="end-date" required>
+
+             <label for="payment-proof">: اشعار الدفع (صورة)لإسترداد المبلغ</label>
+            <input type="file" id="payment-proof" name="payment-proof" required>
+
+            <label for="account-number">: ادخل رقم حسابك لارسال المبلغ لك</label>
+            <input type="text" id="account-number" name="account-number" required>
+
+           
+
+            <button type="submit">إرسال</button>
+        </form>
+    </main>
+     
+</div>
+</section>
+
+
+
+
+   
+
+        
+      <footer>
+        <p>&copy;جميع الحقوق محفوظة لدى فندق الفخامة@2026</p>
+    </footer>
+     <script src="styl.js"></script>
+</body>
+</html>
